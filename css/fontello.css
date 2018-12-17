@@ -1,0 +1,168 @@
+@font-face {
+  font-family: 'fontello';
+  src: url('../fonts/fontello7194.eot?36544124');
+  src: url('../fonts/fontello7194.eot?36544124#iefix') format('embedded-opentype'),
+       url('../fonts/fontello7194.html?36544124') format('woff2'),
+       url('../fonts/fontello7194.woff?36544124') format('woff'),
+       url('../fonts/fontello7194.ttf?36544124') format('truetype'),
+       url('../fonts/fontello7194.svg?36544124#fontello') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+/* Chrome hack: SVG is rendered more smooth in Windozze. 100% magic, uncomment if you need it. */
+/* Note, that will break hinting! In other OS-es font will be not as sharp as it could be */
+/*
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  @font-face {
+    font-family: 'fontello';
+    src: url('../font/fontello.svg?36544124#fontello') format('svg');
+  }
+}
+*/
+ 
+ [class^="icon-"]:before, [class*=" icon-"]:before {
+  font-family: "fontello";
+  font-style: normal;
+  font-weight: normal;
+  speak: none;
+ 
+  display: inline-block;
+  text-decoration: inherit;
+  width: 1em;
+ 
+ 
+  /* opacity: .8; */
+ 
+  /* For safety - reset parent styles, that can break glyph codes*/
+  font-variant: normal;
+  text-transform: none;
+ 
+  /* fix buttons height, for twitter bootstrap */
+  line-height: 1em;
+ 
+  /* Animation center compensation - margins should be symmetric */
+  /* remove if not needed */
+ 
+ 
+  /* you can be more comfortable with increased icons size */
+  /* font-size: 120%; */
+ 
+  /* Font smoothing. That was taken from TWBS */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+ 
+  /* Uncomment for 3D effect */
+  /* text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); */
+}
+ 
+.icon-human-cerebellum:before { content: '\e800'; } /* '' */
+.icon-human-finger:before { content: '\e801'; } /* '' */
+.icon-human-foot:before { content: '\e802'; } /* '' */
+.icon-human-nostril:before { content: '\e803'; } /* '' */
+.icon-human-skin:before { content: '\e804'; } /* '' */
+.icon-journalist:before { content: '\e806'; } /* '' */
+.icon-phone-book:before { content: '\e81b'; } /* '' */
+.icon-phone-with-message:before { content: '\e81e'; } /* '' */
+.icon-position:before { content: '\e820'; } /* '' */
+.icon-search:before { content: '\e826'; } /* '' */
+.icon-speech-bubble:before { content: '\e832'; } /* '' */
+.icon-speech-bubbles:before { content: '\e833'; } /* '' */
+.icon-digestive-system:before { content: '\e840'; } /* '' */
+.icon-dishes-stack:before { content: '\e841'; } /* '' */
+.icon-dna-sequence:before { content: '\e842'; } /* '' */
+.icon-eyeball-structure:before { content: '\e843'; } /* '' */
+.icon-female-hair:before { content: '\e844'; } /* '' */
+.icon-female-pubis:before { content: '\e845'; } /* '' */
+.icon-female-trunk:before { content: '\e846'; } /* '' */
+.icon-fertilization:before { content: '\e847'; } /* '' */
+.icon-foot-bones:before { content: '\e848'; } /* '' */
+.icon-gallbladder:before { content: '\e849'; } /* '' */
+.icon-hand-bones:before { content: '\e84a'; } /* '' */
+.icon-hand-palm:before { content: '\e84b'; } /* '' */
+.icon-hip-bone:before { content: '\e84c'; } /* '' */
+.icon-human-abdomen:before { content: '\e84d'; } /* '' */
+.icon-human-ankle:before { content: '\e84e'; } /* '' */
+.icon-human-artery:before { content: '\e84f'; } /* '' */
+.icon-human-body-side:before { content: '\e850'; } /* '' */
+.icon-human-bone:before { content: '\e851'; } /* '' */
+.icon-human-brain:before { content: '\e852'; } /* '' */
+.icon-human-breast:before { content: '\e853'; } /* '' */
+.icon-human-buttocks:before { content: '\e854'; } /* '' */
+.icon-chat:before { content: '\e855'; } /* '' */
+.icon-human-ear:before { content: '\e856'; } /* '' */
+.icon-human-eye:before { content: '\e857'; } /* '' */
+.icon-human-eyebrow:before { content: '\e858'; } /* '' */
+.icon-human-fetus:before { content: '\e859'; } /* '' */
+.icon-date:before { content: '\e85a'; } /* '' */
+.icon-human-fingerprint:before { content: '\e85b'; } /* '' */
+.icon-document:before { content: '\e85c'; } /* '' */
+.icon-human-head:before { content: '\e85d'; } /* '' */
+.icon-human-heart:before { content: '\e85e'; } /* '' */
+.icon-human-hip:before { content: '\e85f'; } /* '' */
+.icon-human-lips:before { content: '\e860'; } /* '' */
+.icon-human-liver:before { content: '\e861'; } /* '' */
+.icon-human-lungs:before { content: '\e862'; } /* '' */
+.icon-human-muscle:before { content: '\e863'; } /* '' */
+.icon-human-neck:before { content: '\e864'; } /* '' */
+.icon-first-aid-kit:before { content: '\e865'; } /* '' */
+.icon-human-ribs:before { content: '\e866'; } /* '' */
+.icon-new-email-outline:before { content: '\e867'; } /* '' */
+.icon-human-spine:before { content: '\e869'; } /* '' */
+.icon-human-spleen:before { content: '\e86a'; } /* '' */
+.icon-human-toe:before { content: '\e86c'; } /* '' */
+.icon-human-trachea:before { content: '\e86d'; } /* '' */
+.icon-human-uterus:before { content: '\e86e'; } /* '' */
+.icon-immune-system:before { content: '\e86f'; } /* '' */
+.icon-large-intestine:before { content: '\e870'; } /* '' */
+.icon-long-nail:before { content: '\e871'; } /* '' */
+.icon-lymphonodus:before { content: '\e872'; } /* '' */
+.icon-masculine-chromosomes:before { content: '\e873'; } /* '' */
+.icon-men-back:before { content: '\e874'; } /* '' */
+.icon-men-beard:before { content: '\e875'; } /* '' */
+.icon-men-chest:before { content: '\e876'; } /* '' */
+.icon-men-elbow:before { content: '\e877'; } /* '' */
+.icon-men-hair:before { content: '\e878'; } /* '' */
+.icon-men-hand:before { content: '\e879'; } /* '' */
+.icon-men-knee:before { content: '\e87a'; } /* '' */
+.icon-men-leg:before { content: '\e87b'; } /* '' */
+.icon-men-shoulder:before { content: '\e87c'; } /* '' */
+.icon-mouth-open:before { content: '\e87d'; } /* '' */
+.icon-mucous-membrane:before { content: '\e87e'; } /* '' */
+.icon-muscle-fiber:before { content: '\e87f'; } /* '' */
+.icon-neuron:before { content: '\e880'; } /* '' */
+.icon-nose-side-view:before { content: '\e881'; } /* '' */
+.icon-pancreas:before { content: '\e882'; } /* '' */
+.icon-platelets:before { content: '\e883'; } /* '' */
+.icon-respiratory-system:before { content: '\e884'; } /* '' */
+.icon-rod-cell:before { content: '\e885'; } /* '' */
+.icon-skin-cells:before { content: '\e886'; } /* '' */
+.icon-small-intestine:before { content: '\e888'; } /* '' */
+.icon-spine-bone:before { content: '\e889'; } /* '' */
+.icon-stomach-with-liquids:before { content: '\e88a'; } /* '' */
+.icon-three-bacteria:before { content: '\e88b'; } /* '' */
+.icon-thyroid:before { content: '\e88c'; } /* '' */
+.icon-tongue-and-mouth:before { content: '\e88d'; } /* '' */
+.icon-tonsil:before { content: '\e88e'; } /* '' */
+.icon-tooth-and-gums:before { content: '\e88f'; } /* '' */
+.icon-two-kidneys:before { content: '\e890'; } /* '' */
+.icon-two-spermatozoon:before { content: '\e891'; } /* '' */
+.icon-white-blood-cell:before { content: '\e892'; } /* '' */
+.icon-woman-pregnant:before { content: '\e893'; } /* '' */
+.icon-women-eyelashes:before { content: '\e894'; } /* '' */
+.icon-back-side-of-legs:before { content: '\e895'; } /* '' */
+.icon-basophil:before { content: '\e896'; } /* '' */
+.icon-big-cellule:before { content: '\e897'; } /* '' */
+.icon-big-lips:before { content: '\e898'; } /* '' */
+.icon-big-moustache:before { content: '\e899'; } /* '' */
+.icon-big-nose:before { content: '\e89a'; } /* '' */
+.icon-bladder:before { content: '\e89b'; } /* '' */
+.icon-blood-supply-system:before { content: '\e89c'; } /* '' */
+.icon-blood-transfusion:before { content: '\e89d'; } /* '' */
+.icon-blood-vessel:before { content: '\e89e'; } /* '' */
+.icon-bones-joint:before { content: '\e89f'; } /* '' */
+.icon-broken-bone:before { content: '\e8a0'; } /* '' */
+.icon-bronchioles:before { content: '\e8a1'; } /* '' */
+.icon-cellulite:before { content: '\e8a2'; } /* '' */
+.icon-cone-cell:before { content: '\e8a3'; } /* '' */
+.icon-brain:before { content: '\e8a7'; } /* '' */
+.icon-brain-4:before { content: '\e8a8'; } /* '' */
